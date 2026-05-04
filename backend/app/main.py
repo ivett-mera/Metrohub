@@ -9,6 +9,7 @@ import app.models  # noqa: F401 — registra todos los modelos en SQLAlchemy
 
 from app.database import engine, Base
 from app.routers import auth, rutas, horarios, choferes, dashboard, conflictos
+from model.src.api.router import router as ia_router
 
 # ── Instancia principal de FastAPI ────────────
 app = FastAPI(
@@ -38,6 +39,7 @@ app.include_router(horarios.router, prefix="/api/horarios", tags=["Horarios"])
 app.include_router(choferes.router, prefix="/api/choferes", tags=["Choferes"])
 app.include_router(dashboard.router,   prefix="/api/dashboard",   tags=["Dashboard"])
 app.include_router(conflictos.router,  prefix="/api/conflictos",  tags=["Conflictos"])
+app.include_router(ia_router,          prefix="/api",             tags=["IA - Predicción de Demanda"])
 
 # ── Endpoint raíz ─────────────────────────────
 @app.get("/")
