@@ -44,9 +44,9 @@ El sistema **no está orientado al pasajero final** y no expone funcionalidades 
 | Integrante | Código | Rol |
 |------------|--------|-----|
 | Erick Daniel Ortega Moran | 20210209H | Líder / Business Analyst — Requisitos, frontend, gestión de backlog |
-| Cesar Abrahan Correa Mullisaca | 20220305J | Dev — Backend (35%) y fusión frontend-backend |
-| Isaac Antonio Martel Balvin | 20231462D | Dev — Backend principal (65%), BD e integración del sistema |
-| Diego Torres Picho | 20204113B | QA — Datos de prueba y testing manual |
+| Cesar Abrahan Correa Mullisaca | 20220305J | Dev — Backend y fusión frontend-backend |
+| Isaac Antonio Martel Balvin | 20231462D | Dev — Backend principal e integración del sistema |
+| Diego Torres Picho | 20204113B | Creacion de DB, QA — Datos de prueba y testing manual |
 | Ivett Marinella Mera Amado | 20191471H | QA — Investigación de datos del Metropolitano y testing |
 
 Docente: Prof. Manuel Quispe Torres
@@ -342,7 +342,7 @@ Generación de reportes en PDF y XLSX desde el dashboard.
 El proyecto se gestiona con metodología Scrum con sprints semanales.
 
 - GitHub: https://github.com/MetroSmart/Metrohub
-- Rama activa: `feature/mvc-architecture`
+- Rama activa: `main`
 - Gestión de backlog: Jira (proyecto SCRUM)
 
 ### Product Backlog
